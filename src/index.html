@@ -14,32 +14,38 @@
                 First Name:
             </label>
             <br>
-                <input id="f_name" type="text" placeholder="First Name" >
+                <input id="f_name" type="text" placeholder="First Name" required autocomplete>
             <br>
             <label for="l_name">
                 Last Name:
             </label>
             <br>
-                <input id="l_name" type="text" placeholder="Last Name" >
+                <input id="l_name" type="text" placeholder="Last Name" autocomplete="off">
             <br>
             <label for="mob">
                 Phone Number:
             </label>
             <br>
-            <input id="mob" type="text" placeholder="phone number" >
+            <input id="mob" type="tel" placeholder="phone number" >
             <br>
             <label for="age">
                 Age:
             </label>
             <br>
-            <input id="age" type="text"  placeholder="age">
+            <input id="age" type="text" placeholder="age">
+            <br>
+            <label for="organ">
+                Organization:
+            </label>
+            <br>
+            <input type="text" id="organ" autocomplete="off" placeholder="organization">
             <br>
             <label for="pwd">
                 Password:
             </label>
             <br>
-            <input id="pwd" type="password" value="Password">
-            <label for="pwd">
+            <input id="pwd" type="password" value="Password" minlength="8" maxlength="16" required>
+            <label for="rePwd">
                 Repeat Password:
             </label>
             <br>

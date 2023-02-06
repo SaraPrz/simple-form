@@ -24,7 +24,7 @@ p {
     width: 100%;
     cursor: pointer;
 }
-input[type="text"] , input[type="password"] {
+input[type="text"] , input[type="password"] , input[type="tel"] {
     border: none;
     margin-bottom: 16px;
     border: none;
@@ -37,4 +37,10 @@ input[type="text"] , input[type="password"] {
 }
 label {
     margin-bottom: 4px;
+}
+input:invalid {
+    border: 1px dashed red;
+}
+#f_name {
+    text-transform: lowercase;
 }
