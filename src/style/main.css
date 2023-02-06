@@ -41,6 +41,3 @@ label {
 input:invalid {
     border: 1px dashed red;
 }
-#f_name {
-    text-transform: lowercase;
-}
